@@ -1,0 +1,35 @@
+[
+  {
+    "id": "usr-master-1",
+    "username": "Megnottech",
+    "password": "Abhay0341",
+    "name": "Abhay (Central Admin)",
+    "role": "admin",
+    "mobileNo": "7001335445",
+    "createdAt": "2026-07-27T06:35:38.021Z",
+    "isActive": true,
+    "isPrimaryAdmin": true
+  },
+  {
+    "id": "usr-tech-2",
+    "username": "ajay_tech",
+    "password": "TechPass@2026",
+    "name": "Ajay Sharma (Tech Lead)",
+    "role": "technician",
+    "mobileNo": "9839112233",
+    "createdAt": "2026-08-26T06:35:38.021Z",
+    "isActive": true,
+    "isPrimaryAdmin": false
+  },
+  {
+    "id": "usr-tech-3",
+    "username": "vikas_patel",
+    "password": "Vikas@123",
+    "name": "Vikas Patel",
+    "role": "technician",
+    "mobileNo": "9431223344",
+    "createdAt": "2026-09-10T06:35:38.021Z",
+    "isActive": true,
+    "isPrimaryAdmin": false
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "Megnot Technical Support Portal",
+  "description": "Bilingual (Hindi/English) technical support ticketing and tracking portal for Megnot CSP & BC operators with central admin dashboard, offline queue sync, AnyDesk remote support, and WhatsApp resolution alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

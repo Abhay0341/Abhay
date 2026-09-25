@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Mukta', sans-serif;
+  }
+
+  .font-display {
+    font-family: 'Plus Jakarta Sans', 'Mukta', sans-serif;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@media print {
+  header, footer, button, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+}
